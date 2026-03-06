@@ -61,7 +61,7 @@ void drawPetGraphic() {
   // Body
   fill(170, 210, 255);
   noStroke();
-  ellipse(210, 220, 140, 120);
+  ellipse(210, 220, 140 + myPet.getWeight() , 120  + myPet.getWeight());
 
   // Head
   fill(170, 210, 255);
